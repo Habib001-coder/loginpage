@@ -42,7 +42,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        mStorageRef = FirebaseStorage.getInstance().getReference();
+
 
         btnLogout = findViewById(R.id.logOut);
         BtnChoose = findViewById(R.id.btnChoose);
@@ -127,5 +127,4 @@ public class HomeActivity extends AppCompatActivity {
             }
         }
     }
-}
 }
